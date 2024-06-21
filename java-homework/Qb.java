@@ -7,8 +7,9 @@ public class Qb {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        System.out.println(c);
-        System.out.println(b);
-        System.out.println(a);
+//        System.out.println(c);
+//        System.out.println(b);
+//        System.out.println(a);
+        System.out.println(String.format("%d\n%d\n%d", c, b, a));
     }
 }

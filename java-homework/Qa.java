@@ -5,6 +5,13 @@ public class Qa {
         Scanner sc = new Scanner(System.in);
         String a = sc.nextLine();
         String b = sc.nextLine();
-        System.out.println(a + b);
+
+//        System.out.print(a);
+//        System.out.println(b);
+
+//        System.out.println(a + b);
+
+        System.out.println(String.format("%s%s",a, b)); // 선호
+
     }
 }

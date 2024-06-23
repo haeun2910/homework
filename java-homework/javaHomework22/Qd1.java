@@ -2,12 +2,11 @@ package javaHomework22;
 
 import java.util.Scanner;
 
-public class Q3 {
+public class Qd1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        System.out.println((char) (64 + n));
-
-
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        System.out.println(a % b  == 0);
     }
 }

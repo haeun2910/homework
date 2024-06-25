@@ -6,13 +6,20 @@ import java.util.Scanner;
 public class Qa1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-        int c = scanner.nextInt();
-        int d = scanner.nextInt();
-        int e = scanner.nextInt();
-        int tinhToan = (a+b-c)*d/e;
-        System.out.println(tinhToan);
+//        int a = scanner.nextInt();
+//        int b = scanner.nextInt();
+//        int c = scanner.nextInt();
+//        int d = scanner.nextInt();
+//        int e = scanner.nextInt();
+//        int tinhToan = (a+b-c)*d/e;
+//        System.out.println(tinhToan);
+
+        int base = scanner.nextInt();
+        base += scanner.nextInt();
+        base -= scanner.nextInt();
+        base *= scanner.nextInt();
+        base /= scanner.nextInt();
+        System.out.println(base);
 
     }
 }

@@ -10,8 +10,12 @@ public class Qf1 {
         int a2 = a*a;
         int a4 = a*a*a*a;
         int a8 = a*a*a*a*a*a*a*a;
+//        a *= a;
+//        a *= a;
+//        a *= a;
         System.out.println(a2 % 10);
         System.out.println(a4 % 10);
         System.out.println(a8 % 10);
+
     }
 }

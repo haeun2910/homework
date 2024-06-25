@@ -7,12 +7,17 @@ import java.util.Scanner;
 public class Qb1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int time = 7;
+        int current = 7;
         System.out.println("자연수 하나를 입력: ");
-        int a = scanner.nextInt();
-        int b = a % 12;
-        int c = (b + time) % 12;
-        System.out.println(c);
+        int n = scanner.nextInt();
+        // 현재시간
+        int now = n + current;
+        // 14시면 2에, 17시면 5애
+        // 가각 12로 나눈 나머지 위에 위치할 것이다
+        int hand = now % 12;
+        System.out.println(hand);
+
+
 
     }
 }
